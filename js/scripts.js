@@ -1,4 +1,4 @@
-$(function(){
+jQuery(function($){
 
 	$('.menu-toggle').on('click', function(){
 
@@ -16,7 +16,7 @@ $(function(){
 });
 
 
-$(function(){
+jQuery(function($){
 
 	$('.button-byrget').on('click', function(){
 
@@ -33,7 +33,7 @@ $(function(){
 
 });
 
-$(function(){
+jQuery(function($){
 
 	$('.footer-menu-toggle').on('click', function(){
 
@@ -56,7 +56,7 @@ $(function(){
 
 
 
-  $(document).ready(function() {
+  jQuery(document).ready(function($) {
     $('body').append('<div id="toTop"></div>');
     $(window).scroll(function() {
       if($(this).scrollTop() > 200) {
